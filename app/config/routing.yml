@@ -1,0 +1,4 @@
+#Routes with frontend
+front:
+    resource: "@FrontBundle/Resources/config/routing/front.yml"
+    prefix: /

@@ -1,0 +1,4 @@
+front_home_view:
+    path:     /
+    defaults: { _controller: "FrontBundle:Home/Home:index"  }
+    methods:  GET

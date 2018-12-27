@@ -1,0 +1,2 @@
+backend_index:
+    resource: "@FrontBundle/Resources/config/routing/pages/home.yml"

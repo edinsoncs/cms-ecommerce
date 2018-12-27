@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Libre Remate</title>
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/slick.css">
+    <link rel="stylesheet" href="/assets/css/slick-theme.css">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon"/>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary py-0">
+        <div class="container-fluid">
+            <a class="navbar-brand py-1 mr-auto" href="./">
+                <img src="assets/images/logo.png" class="logo img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navigation-bar" aria-controls="main-navigation-bar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse ml-auto" id="main-navigation-bar">
+                <ul class="navbar-nav ml-auto w-100">
+                    <div class="input-w-icon align-self-center mx-auto">
+                        <input type="text" class="form-control form-control-dark" placeholder="Buscar...">
+                        <button class="input-button"><i class="fa fa-search text-white"></i></button>
+                        <select name="" id="" class="search-bar-select form-control-dark">
+                            <option value="">Todas</option>
+                            <option value="">Categoria uno</option>
+                        </select>
+                    </div>
+                    <div class="d-flex flex-column flex-lg-row">
+                        <li class="nav-item">
+                            <a class="nav-link py-lg-4" href="#">Mi cuenta</a>
+                        </li>
+                        <div class="navbar-cta-btn px-3 ml-lg-2">
+                            <a href="" class="btn btn-secondary">Publicar anuncio</a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="category-bar">
+        <ul class="nav justify-content-center bg-primary">
+            <li class="nav-item">
+                <a class="nav-link text-light py-2" href="#">Vehículos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light py-2" href="#">Bienes Raíces</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light py-2" href="#">Empleos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light py-2" href="#">Electrónica</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light py-2" href="#">Clasificados</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light py-2" href="#">Hoteles</a>
+            </li>
+        </ul>
+    </section>
+
+    <header class="hero-header bg-secondary text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h2 class="mb-4">El mas grande ecommerce todo el país PERÚ<br></h2>
+                    <p class="font-14">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed.</p>
+                    <a href="" class="btn btn-primary px-md-4">Primary</a>
+                </div>
+                <div class="col-md-6 offset-md-1">
+                    <div id="hero-slider" class="mb-0">
+                        <img src="assets/images/hero-banner.png" class="img-fluid">
+                        <img src="assets/images/hero-banner.png" class="img-fluid">
+                        <img src="assets/images/hero-banner.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="info" class="lifted-section">
+        <div class="container">
+            <div class="py-3 py-lg-5 bg-light rounded-top px-4">
+                <div class="row">
+                    <div class="col-lg-4 px-lg-5 mb-3 mb-lg-0">
+                        <div class="media">
+                            <i class="fa fa-dollar fa-2x text-secondary mr-4"></i>
+                            <div class="media-body">
+                                <h6 class="text-primary font-600 mb-0 text-uppercase">Envío gratis</h6>
+                                <div class="text-muted small">Envios gratis en ordeneres mayores a $99</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 px-lg-5 mb-3 mb-lg-0">
+                        <div class="media">
+                            <i class="fa fa-dollar fa-2x text-secondary mr-4"></i>
+                            <div class="media-body">
+                                <h6 class="text-primary font-600 mb-0 text-uppercase">Envío gratis</h6>
+                                <div class="text-muted small">Envios gratis en ordeneres mayores a $99</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 px-lg-5 mb-3 mb-lg-0">
+                        <div class="media">
+                            <i class="fa fa-dollar fa-2x text-secondary mr-4"></i>
+                            <div class="media-body">
+                                <h6 class="text-primary font-600 mb-0 text-uppercase">Envío gratis</h6>
+                                <div class="text-muted small">Envios gratis en ordeneres mayores a $99</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+
+        <section id="featured">
+            <div class="container">
+                <div class="bg-light-2 py-3 py-lg-4 px-4">
+                    <h5 class="font-600 mb-4">Productos destacados</h5>
+                    <div class="category-slider">
+                        <div class="mx-2">
+                            <div class="product">
+                                <a href="#!" class="card product__item">
+                                    <div class="product__img">
+                                        <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body p-2 border-top">
+                                        <div class="media">
+                                            <div class="media-body font-14">
+                                                <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                            </div>
+                                            <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                    <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mx-2">
+                            <div class="product">
+                                <a href="#!" class="card product__item">
+                                    <div class="product__img">
+                                        <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body p-2 border-top">
+                                        <div class="media">
+                                            <div class="media-body font-14">
+                                                <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                            </div>
+                                            <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                    <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mx-2">
+                            <div class="product">
+                                <a href="#!" class="card product__item">
+                                    <div class="product__img">
+                                        <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body p-2 border-top">
+                                        <div class="media">
+                                            <div class="media-body font-14">
+                                                <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                            </div>
+                                            <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                    <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mx-2">
+                            <div class="product">
+                                <a href="#!" class="card product__item">
+                                    <div class="product__img">
+                                        <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body p-2 border-top">
+                                        <div class="media">
+                                            <div class="media-body font-14">
+                                                <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                            </div>
+                                            <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                    <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mx-2">
+                            <div class="product">
+                                <a href="#!" class="card product__item">
+                                    <div class="product__img">
+                                        <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body p-2 border-top">
+                                        <div class="media">
+                                            <div class="media-body font-14">
+                                                <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                            </div>
+                                            <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                    <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mx-2">
+                            <div class="product">
+                                <a href="#!" class="card product__item">
+                                    <div class="product__img">
+                                        <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body p-2 border-top">
+                                        <div class="media">
+                                            <div class="media-body font-14">
+                                                <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                            </div>
+                                            <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                    <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mx-2">
+                            <div class="product">
+                                <a href="#!" class="card product__item">
+                                    <div class="product__img">
+                                        <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body p-2 border-top">
+                                        <div class="media">
+                                            <div class="media-body font-14">
+                                                <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                            </div>
+                                            <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                    <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="promotions" class="pb-2 pt-3 bg-light mt-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="#!" class="promotion__item mb-3" style="height: 230px">
+                            <img src="assets/images/img1.jpg"  class="object-cover">
+                        </a>
+                        <a href="#!" class="promotion__item mb-3" style="height: 230px">
+                            <img src="assets/images/img2.jpg"  class="object-cover">
+                        </a>
+                    </div>
+                    <div class="col-md-6 px-md-0">
+                        <a href="#!" class="promotion__item mb-3" style="height: 476px">
+                            <img src="assets/images/promotion1.png"  class="object-cover">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#!" class="promotion__item mb-3" style="height: 230px">
+                            <img src="assets/images/img1.jpg"  class="object-cover">
+                        </a>
+                        <a href="#!" class="promotion__item mb-3" style="height: 230px">
+                            <img src="assets/images/img2.jpg"  class="object-cover">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="categories" class="py-5">
+            <div class="container">
+                <div class="bg-light-2 py-3 py-lg-4 px-4 rounded">
+                    <div id="category1" class="mb-4">
+                        <h5 class="font-600 mb-4">Celulares</h5>
+                        <div class="category-slider">
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="my-5">
+                    <div id="category2" class="mb-4">
+                        <h5 class="font-600 mb-4">Computadoras y accesorios</h5>
+                        <div class="category-slider">
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="my-5">
+                    <div id="category3" class="mb-4">
+                        <h5 class="font-600 mb-4">Computadoras y accesorios</h5>
+                        <div class="category-slider">
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-2">
+                                <div class="product">
+                                    <a href="product-details.html" class="card product__item">
+                                        <div class="product__img">
+                                            <img class="object-cover" src="assets/images/phone.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body p-2 border-top">
+                                            <div class="media">
+                                                <div class="media-body font-14">
+                                                    <div class="product__title">Samsung Galaxy S8 I-98B78 Ref #44757 lo....</div>
+                                                </div>
+                                                <h3 class="text-primary font-600 mt-auto mb-0">$1.275</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="product__actions">
+                                        <a href="#a" class="btn-icon mx-1"><i class="fa fa-shopping-cart"></i></a>
+                                        <a href="#b" class="btn-icon mx-1"><i class="fa fa-heart-o"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer text-light pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h6 class="footer__title mb-4">Contactanos</h6>
+                    <ul class="list-unstyled font-14 mb-5">
+                        <li class="mb-3">
+                            <h6 class="footer__menu__title mb-0">Ubicación</h6>
+                            <div class="footer__menu__text">Lima, Perú</div>
+                        </li>
+                        <li class="mb-3">
+                            <h6 class="footer__menu__title mb-0">Teléfono</h6>
+                            <div class="footer__menu__text">+1 234 467890</div>
+                        </li>
+                        <li class="mb-3">
+                            <h6 class="footer__menu__title mb-0">Email</h6>
+                            <a href="" class="footer__link">mail@example.com</a>
+                        </li>
+                        <li class="mb-3">
+                            <h6 class="footer__menu__title mb-0">Horarios</h6>
+                            <div class="footer__menu__text">Lunes a Sábado / 9:00AM - 8:00PM</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8 offset-md-1">
+                    <h6 class="footer__title mb-md-4">Suscribete a nuestro newsletter</h6>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="footer__menu__text font-14 mb-2">Get all the latest information on Events,Sales and Offers. Sign up for newsletter today</div>
+                        </div>
+                        <div class="col-md-6 my-auto">
+                            <div class="input-group">
+                                <input type="text" class="form-control form-control-dark" placeholder="Correo electrónico">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary btn-sm" type="button">Suscribirme</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="footer__title mb-md-4">Redes sociales</h6>
+                            <div class="footer-social mb-3">
+                                <a href="#!" class="social__item mr-2"><i class="fa fa-facebook"></i></a>
+                                <a href="#!" class="social__item mr-2"><i class="fa fa-twitter"></i></a>
+                                <a href="#!" class="social__item mr-2"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="footer__title mb-md-4">Mi cuenta</h6>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="list-unstyled font-14">
+                                        <li class="mb-1">
+                                            <a href="" class="footer__link">Carrito</a>
+                                        </li>
+                                        <li class="mb-1">
+                                            <a href="" class="footer__link">Favoritos</a>
+                                        </li>
+                                        <li class="mb-1">
+                                            <a href="" class="footer__link">Historial</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list-unstyled font-14">
+                                        <li class="mb-1">
+                                            <a href="" class="footer__link">Busquedas</a>
+                                        </li>
+                                        <li class="mb-1">
+                                            <a href="" class="footer__link">Cerrar sesión</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="light mb-0">
+
+            <div class="py-4">
+                <div class="d-flex flex-wrap">
+                    <div class="small text-muted my-auto">&copy; 2018. Todos los derechos reservados.</div>
+                    <div class="ml-auto">
+                        <img src="assets/images/creditcards.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstrap required js ================================================== -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+
+    <script src="/assets/js/slick.js"></script>
+
+    <!-- main js -->
+    <script src="/assets/js/main.js"></script>
+
+</body>
+</html>
